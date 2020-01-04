@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .models import Post, Tag, Category
+from .models import Post, Category
 
 from config.models import SideBar
 # Create your views here.

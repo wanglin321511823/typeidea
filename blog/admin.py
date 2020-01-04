@@ -79,6 +79,10 @@ class PostAdmin(BaseOwnerAdmin):
     #编辑页面
     save_on_top = True
 
+    filter_horizontal = ('tag',)
+
+    exclude = ('owner',)
+
     """fields = (
         ('category', 'title'),
         'desc',
