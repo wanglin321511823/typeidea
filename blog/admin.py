@@ -83,13 +83,13 @@ class PostAdmin(BaseOwnerAdmin):
 
     exclude = ('owner',)
 
-    """fields = (
-        ('category', 'title'),
-        'desc',
-        'status',
-        'content',
-        'tag',
-    )"""
+    # fields = (
+    #     ('category', 'title'),
+    #     'desc',
+    #     'status',
+    #     'content',
+    #     'tag',
+    # )
     fieldsets = (
         ('基础配置', {
             'description':'基础配置描述',
